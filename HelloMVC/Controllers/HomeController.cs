@@ -1,4 +1,4 @@
-ï»¿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -23,7 +23,8 @@ namespace HelloMVC.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Title = "Contact us";
+            // "ƒ_ƒ•¶š" ‚ªŠÜ‚Ü‚ê‚Ä‚¢‚é‚±‚Æ‚ªƒ|ƒCƒ“ƒg
+            ViewBag.Title = "ƒ\ƒtƒgƒEƒFƒA‚ÉŠÖ‚·‚é‚¨–â‚¢‡‚í‚¹";
             ViewBag.Message = "Call me maybe.";
 
             return View();
