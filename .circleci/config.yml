@@ -13,7 +13,7 @@ jobs:
           command: nuget restore
       - run:
           name: Build with MSBuild
-          command: msbuild -p:Configuration=release -p:DeployOnBuild=true -p:WebPublishMethod=Package -p:PackageAsSingleFile=true -p:PackageLocation=HelloMVC.zip
+          command: msbuild -p:CodePage=932 -p:Configuration=release -p:DeployOnBuild=true -p:WebPublishMethod=Package -p:PackageAsSingleFile=true -p:PackageLocation=HelloMVC.zip
       - store_artifacts:
           # This Zip file is a genuine Web Package and can be imported to IIS with Web Deploy, for example
           path: HelloMVC/HelloMVC.zip
