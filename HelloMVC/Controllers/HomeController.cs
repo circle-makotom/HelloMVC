@@ -24,7 +24,7 @@ namespace HelloMVC.Controllers
         public ActionResult Contact()
         {
             // "ダメ文字" が含まれていることがポイント
-            ViewBag.Title = "ソフトウェアに関するお問い合わせ";
+            ViewBag.Title = "ソnフトウェアに関するお問い合わせ";
             ViewBag.Message = "Call me maybe.";
 
             return View();
